@@ -1,4 +1,4 @@
-# ProcrastiMate
+# ProcrastiMate.io
 
 > Professional-grade procrastination, engineered.
 
