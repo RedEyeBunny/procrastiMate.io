@@ -26,3 +26,68 @@ It is a *plausibility engine*.
 
 ```bash
 pip install procrastimate
+```
+
+## 🚀 Usage
+```
+procrastimate "enable QR for subs flow" --severity high
+```
+### Example output
+```
+🕒 ProcrastiMate Decision
+
+Task      : enable QR for subs flow
+Vague     : Yes
+Excuse    : We need to ensure cross-functional alignment and clarify ownership before moving forward.
+New Date  : 2025-12-31
+```
+### ⚙️ CLI Options
+
+#### Flag	Description	Default
+```
+--severity	Task urgency: low, medium, high	medium
+--audience	Target audience: manager, client, self	manager
+```
+
+
+### 🧠 How It Works
+
+The task is analyzed for vagueness using keyword-based heuristics
+
+An excuse template is selected based on:
+
+1. task clarity
+2. severity
+3. audience
+
+**A new date is suggested based on plausibility, not efficiency**
+
+No calendars.
+No optimization.
+No accountability.
+
+## ⚠️ Disclaimer
+
+This project is satire.
+
+Do not use ProcrastiMate to:
+
+- deceive clients
+- avoid responsibilities
+- justify bad engineering decisions
+  
+(But also… I know you will.)
+
+## 🛠 Development
+
+Clone the repo and install in editable mode:
+```
+pip install -e .
+```
+
+Run locally:
+
+```
+procrastimate "fix backend"
+```
+
