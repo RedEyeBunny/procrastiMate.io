@@ -31,3 +31,4 @@ def main():
     print(f"Excuse    : {excuse}")
     print(f"New Date  : {new_date.strftime('%Y-%m-%d')}")
 
+    return 0
